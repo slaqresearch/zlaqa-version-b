@@ -1,0 +1,199 @@
+.env
+
+diagnosis/__pycache__/*
+
+
+# Python
+*.py[cod]
+*$py.class
+*.so
+.Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git
+.mypy_cache
+.pytest_cache
+.hypothesis
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+/media
+/staticfiles
+/static_root
+
+# Environment Variables
+
+.env.example
+.env.local
+.env.*.local
+.venv
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Media files (user uploads - careful with this)
+media/recordings/*.wav
+media/recordings/*.mp3
+media/recordings/*.webm
+media/recordings/*.m4a
+media/recordings/*.ogg
+
+# Keep media directories but not the files
+!media/recordings/.gitkeep
+
+# ML Models (large files)
+ml_models/wav2vec2/
+ml_models/*.bin
+ml_models/*.pt
+ml_models/*.pth
+ml_models/*.h5
+ml_models/*.pkl
+*.ckpt
+*.safetensors
+
+# Reports (generated PDFs)
+reports/*.pdf
+
+# Node modules (if using frontend build tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Frontend build files
+frontend/dist/
+frontend/build/
+frontend/.next/
+frontend/out/
+
+# Database dumps
+*.sql
+*.dump
+*.bak
+
+# Secrets and sensitive data
+*.pem
+*.key
+*.cert
+.secret
+secrets/
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Redis dump
+dump.rdb
+
+# PostgreSQL
+*.pgdata
+pgdata/
+
+# Documentation builds
+docs/_build/
+site/
+
+**/__pycache__/**
+
+__pycache__/
+*.pyc
+logs/*.log
